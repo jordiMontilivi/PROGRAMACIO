@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             //variables
-            int numAct, numAnt, numAnt2;
+            int numAct = -1, numAnt, numAnt2;
             const string path = @"..\..\..\..\FITXERS FINESTRES\";
             StreamReader sr = new StreamReader(path + "NUMEROS1.txt");
             string linia;
@@ -22,8 +22,6 @@
                     linia = sr.ReadLine();
                     if (linia != null)
                     {
-                        numAct = Convert.ToInt32(linia);
-
                         while (linia != null && (numAct = Convert.ToInt32(linia)) != numAnt + numAnt2)
                         {
                             numAct = Convert.ToInt32(linia);

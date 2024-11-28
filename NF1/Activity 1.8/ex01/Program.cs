@@ -21,7 +21,7 @@
                 if (numAct == numAnt + numAnt2)
                     sumaAnt = true;
                 //següent valor
-                if (!sumaAnt)
+                else
                 {
                     numAnt2 = numAnt;
                     numAnt = numAct;
