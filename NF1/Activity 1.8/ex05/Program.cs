@@ -1,13 +1,15 @@
-﻿namespace ex02c
+﻿namespace ex05
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //variables
-            int numAct, numAnt;
+            //Variables
+            //Aquest el podem fer amb finestres o amb rang
+            //Versio 1. Finestres
+            string missatge1, missatge2;
+            bool perill = false;
             const string path = @"..\..\..\..\FITXERS FINESTRES\";
-            bool creixent = true;
             string fitxer = "";
             string linia;
             char resposta = 's';
@@ -16,15 +18,15 @@
             while (resposta == 's')
             {
                 Console.WriteLine("Fitxers");
-                Console.WriteLine("1.- Creixent");
-                Console.WriteLine("2.- No Creixent");
+                Console.WriteLine("1.- SOS_SI");
+                Console.WriteLine("2.- SOS_NO");
                 Console.Write("Tria un fitxer: ");
                 opcio = Console.ReadKey().KeyChar;
                 Console.WriteLine();
                 if (opcio == '1')
-                    fitxer = "CREIXENT.TXT";
+                    fitxer = "SOS_SI.TXT";
                 else if (opcio == '2')
-                    fitxer = "NO_CREIXENT.TXT";
+                    fitxer = "SOS_NO.TXT";
                 else
                     Console.WriteLine("No has triat una opcio valida");
 
@@ -34,25 +36,28 @@
 
                     //Valors entrada 
                     //Correctament hem de controlar que el fitxer no estigui buit o tindrem errors
-                    numAnt = Convert.ToInt32(sr.ReadLine());
                     linia = sr.ReadLine();
-                    numAct = Convert.ToInt32(linia);
-
-                    while (linia != null && !creixent)
-                    {
-                        numAct = Convert.ToInt32(linia);
-                        if (numAnt >= numAct)
-                            creixent = false;
-                        else
-                        {
-                            numAnt = numAct;
-                            linia = sr.ReadLine();
-                        }
-                    }
-                    if (creixent)
-                        Console.WriteLine($"La seqüència de valors és CREIXENT");
+                    if (linia == null)
+                        Console.WriteLine("El fitxer està buit");
                     else
-                        Console.WriteLine($"La seqüència de valors NO ES CREIXENT");
+                    {
+                        missatge1 = linia;
+                        linia = sr.ReadLine();
+                        while (linia != null && !perill)
+                        {
+                            missatge2 = linia;
+                            perill = missatge1 == missatge2 && missatge1 == "... --- ...";
+                            if(!perill)
+                            {
+                                missatge1 = missatge2;
+                                linia = sr.ReadLine();
+                            }
+                        }
+                        if (perill)
+                            Console.WriteLine($"El vaixell ha enviat dos missatges de SOS consecutius");
+                        else
+                            Console.WriteLine($"El vaixell no ha enviat dos missatges de SOS consecutius");
+                    }
                 }
                 else
                     Console.WriteLine($"No s'ha trobat el fitxer {fitxer} a la ruta {path}");

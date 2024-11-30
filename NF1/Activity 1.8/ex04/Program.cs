@@ -1,6 +1,4 @@
-﻿using System.Buffers.Binary;
-
-namespace ex03
+﻿namespace ex04
 {
     internal class Program
     {
@@ -9,9 +7,8 @@ namespace ex03
             //Variables
             //per a poder tenir els valors de les variables llegirem
             //escquerre i mig previament i en cada iteracio llegirem dreta
-            int esquerre, mig, dreta = 0;
+            int esquerre, mig, dreta, quantitat = 0;
             const string path = @"..\..\..\..\FITXERS FINESTRES\";
-            bool minimLocal = false;
             string fitxer = "";
             string linia;
             char resposta = 's';
@@ -34,7 +31,7 @@ namespace ex03
 
                 if (File.Exists(path + fitxer))
                 {
-                    StreamReader sr = new StreamReader(path + fitxer); 
+                    StreamReader sr = new StreamReader(path + fitxer);
 
                     //Valors entrada 
                     //Correctament hem de controlar que el fitxer no estigui buit o tindrem errors
@@ -51,19 +48,17 @@ namespace ex03
                         {
                             mig = Convert.ToInt32(linia);
                             linia = sr.ReadLine();
-                            while (linia != null && !minimLocal)
+                            while (linia != null)
                             {
                                 dreta = Convert.ToInt32(linia);
-                                minimLocal = esquerre < mig && mig < dreta;
-                                if (!minimLocal)
-                                {
-                                    esquerre = mig;
-                                    mig = dreta;
-                                    linia = sr.ReadLine();
-                                }
+                                if (esquerre < mig && mig < dreta)
+                                    quantitat++;
+                                esquerre = mig;
+                                mig = dreta;
+                                linia = sr.ReadLine();
                             }
-                            if (minimLocal)
-                                Console.WriteLine($"Hem trobat una vall als valors {esquerre} - {mig} - {dreta} ");
+                            if (linia != null)
+                                Console.WriteLine($"Hem trobat {quantitat} valls");
                             else
                                 Console.WriteLine($"La seqüència de valors NO ES CREIXENT");
                         }
