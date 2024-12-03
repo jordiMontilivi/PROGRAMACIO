@@ -25,7 +25,7 @@
                 cont++;
             }
             fitxer.Close();
-            if (valor % 2 != 0)
+            if (valor % 2 == 0)
                 Console.WriteLine($"Hem trobat un numero parell {valor} a la posició {cont}");
             else
                 Console.WriteLine($"No hem trobat cap numero parell i hem recorregut tot el fitxer {cont} elements");
