@@ -5,8 +5,8 @@
 
         static void Main(string[] args)
         {
-            const string FILE_TEAMS = "TEAMS.TXT";
-            const string FILE_MATCHES = "MATCHES.TXT";
+            const string FILE_TEAMS = @"..\..\..\..\FITXERS\TEAMS.TXT";
+            const string FILE_MATCHES = @"..\..\..\..\FITXERS\MATCHES.TXT";
             ConsoleKeyInfo tecla;
             do
             {

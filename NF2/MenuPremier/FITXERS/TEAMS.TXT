@@ -1,0 +1,40 @@
+Arsenal
+ARS
+Aston Villa
+AVL
+Bournemouth
+BOU
+Brentford
+BRE
+Brighton
+BRI
+Chelsea
+CHE
+Crystal Palace
+CRY
+Everton
+EVE
+Fulham
+FUL
+Leeds
+LEE
+Leicester
+LEI
+Liverpool
+LIV
+Man City
+MNC
+Man United
+MNU
+Newcastle
+NEW
+Nottingham
+NFC
+Southampton
+SOU
+Tottenham
+TOT
+West Ham
+WHM
+Wolves
+WOL
