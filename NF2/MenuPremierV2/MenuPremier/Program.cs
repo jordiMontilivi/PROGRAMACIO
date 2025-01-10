@@ -341,11 +341,20 @@
         }
         public static void MostrarMenu()
         {
-            Console.WriteLine("1- CERCAR EQUIP");
-            Console.WriteLine("2- GOLS D'UN EQUIP EN UNA TEMPORADA");
-            Console.WriteLine("3- MOSTRAR RESULTAT D'UN PARTIT CONCRET");
-            Console.WriteLine("4- PUNTS FETS PER UN EQUIP EN UNA TEMPORADA");
-            Console.WriteLine("0- EXIT");
+            Console.WriteLine("╔═════════════════════════════════════════════════════╗");
+            Console.WriteLine("║                    PREMIER LEAGE                    ║");
+            Console.WriteLine("╠═════════════════════════════════════════════════════╣");
+            Console.WriteLine("║                                                     ║");
+            Console.WriteLine("║    1. CERCAR EQUIP                                  ║");
+            Console.WriteLine("║    2. GOLS D'UN EQUIP EN UNA TEMPORADA              ║");
+            Console.WriteLine("║    3. MOSTRAR RESULTAT D'UN PARTIT CONCRET          ║");
+            Console.WriteLine("║    4. PUNTS FETS PER UN EQUIP EN UNA TEMPORADA      ║");
+            Console.WriteLine("║    5. PARTITS GUANYATS PER UN EQUIP                 ║");
+            Console.WriteLine("║    6. EQUIP AMB MÉS GOLS EN UNA TEMPORADA           ║");
+            Console.WriteLine("║    7. EQUIP AMB MÉS GOLS EN UN PARTIT               ║");
+            Console.WriteLine("║                                                     ║");
+            Console.WriteLine("║    0. EXIT                                          ║");
+            Console.WriteLine("╚═════════════════════════════════════════════════════╝");
         }
     }
 }
