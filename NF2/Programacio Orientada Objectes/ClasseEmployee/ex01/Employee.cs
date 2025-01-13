@@ -8,6 +8,7 @@ namespace ex01
 {
     public class Employee
     {
+        #region Atributs
         //atributs de la classe Employee
         private static int idGeneral = 0;   
         private const string CODI_ACCES = "1234";
@@ -17,6 +18,7 @@ namespace ex01
         private double salary; 
         private double commission; 
         private DateTime hireDate;
+        #endregion
 
         #region Constructors
         //Constructors
@@ -54,6 +56,7 @@ namespace ex01
         {
         }
         #endregion
+
         #region Propietats
         #region Getters/Setters
         public string GetLastName() { return this.lastName; }
@@ -103,6 +106,7 @@ namespace ex01
             }
         }
         #endregion
+
         #region Metodes Instancia
         private double MajorSMI(double valor)
         {
@@ -142,6 +146,7 @@ namespace ex01
             return null;
         }
         #endregion
+
         #region Metodes Classe
         public static double MaxTotalSalary(Employee emp1, Employee emp2) 
         { 
