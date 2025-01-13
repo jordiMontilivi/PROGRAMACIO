@@ -4,8 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int[] valors = new int[5] { 4, 6, 3, 9, 1 };
-            Console.WriteLine(valors[valors.Length]);
+            int[] valors = GenerarTaula(5);
             MostrarTaula(valors);
         }
         static int[] GenerarTaula(int num)
