@@ -6,7 +6,7 @@ namespace EquipsOrdenacions
 {
 	internal class Program
 	{
-		//int espais = (Console.WindowWidth - "╔══════════════════════════════════════════╗".Length) / 2 + 5;
+		static int espais;
 		static void Main(string[] args)
 		{
 			TaulaLlista<Equip> equips = new TaulaLlista<Equip>();
@@ -19,68 +19,69 @@ namespace EquipsOrdenacions
 			}
 			Opcions(equips);
 		}
-		public static int MostrarMenu()
+		public static void MostrarMenu()
 		{
-			int espaisMenu;
-			Centrar("╔══════════════════════════════════════════╗");
-			Centrar("║              PREMIER LEAGE               ║");
-			Centrar("╠══════════════════════════════════════════╣");
-			Centrar("║                                          ║");
-			Centrar("║    1. LLISTAT ALFABÈTIC                  ║");
-			Centrar("║    2. LLISTAT PER CLASSIFICACIÓ          ║");
-			Centrar("║    3. LLISTAT PER GOLS MARCATS           ║");
-			Centrar("║    4. LLISTAT PER GOLS ENCAIXATS         ║");
-			Centrar("║                                          ║");
-			Centrar("║    0. EXIT                               ║");
-			espaisMenu = Centrar("╚══════════════════════════════════════════╝");
+			Console.WriteLine("\n");
+			CentrarMenu("╔══════════════════════════════════════════╗");
+			CentrarMenu("║              PREMIER LEAGE               ║");
+			CentrarMenu("╠══════════════════════════════════════════╣");
+			CentrarMenu("║                                          ║");
+			CentrarMenu("║    1. LLISTAT ALFABÈTIC                  ║");
+			CentrarMenu("║    2. LLISTAT PER CLASSIFICACIÓ          ║");
+			CentrarMenu("║    3. LLISTAT PER GOLS MARCATS           ║");
+			CentrarMenu("║    4. LLISTAT PER GOLS ENCAIXATS         ║");
+			CentrarMenu("║                                          ║");
+			CentrarMenu("║    0. EXIT                               ║");
+			CentrarMenu("╚══════════════════════════════════════════╝");
 			Console.WriteLine();
-			return espaisMenu;
 		}
 
 		static public void Opcions(TaulaLlista<Equip> equips)
 		{
-			int espaisMenu;
 			ConsoleKeyInfo option;
 			Console.Clear();
 			do
 			{
-				espaisMenu = MostrarMenu();
+				MostrarMenu(); 
+				Console.Write($"{new string(' ', espais)}");
 				option = Console.ReadKey();
-
 				switch (option.Key)
 				{
 					case ConsoleKey.D1:
 						equips.Sort();
-						MostrarEquips(equips, espaisMenu, "Mostrar Ordenat Alfabèticament");
-						Final(espaisMenu);
+						MostrarEquips(equips, espais, "Mostrar Ordenat Alfabèticament");
+						Final();
 						break;
 					case ConsoleKey.D2:
 						equips.Sort(new Equip.ComparadorPunts());
 						equips.Reverse();
-						MostrarEquips(equips, espaisMenu, "Mostrar Ordenat Per Punts");
-						Final(espaisMenu);
+						MostrarEquips(equips, espais, "Mostrar Ordenat Per Punts");
+						Final();
 						break;
 					case ConsoleKey.D3:
 						equips.Sort(new Equip.ComparadorGolsFavor());
 						equips.Reverse();
-						MostrarEquips(equips, espaisMenu, "Mostrar Ordenat Per Gols a Favor");
-						Final(espaisMenu);
+						MostrarEquips(equips, espais, "Mostrar Ordenat Per Gols a Favor");
+						Final();
 						break;
 					case ConsoleKey.D4:
 						equips.Sort(new Equip.ComparadorGolsContra());
-						MostrarEquips(equips, espaisMenu, "Mostrar Ordenat Per Gols en Contra");
-						Final(espaisMenu);
+						MostrarEquips(equips, espais, "Mostrar Ordenat Per Gols en Contra");
+						Final();
 						break;
 					case ConsoleKey.D0:
+						Console.Write("\r");
 						for (int i = 5; i >= 0; i--)
 						{
-							Centrar($"Sortint en {i} segons", espaisMenu);
+							Console.Write($"{new string(' ', espais)} Sortint en {i} segons \r");
 							Thread.Sleep(1000);
 						}
+						Console.Clear();
 						break;
 					default:
-						Centrar($"Opcio no valida", espaisMenu);
-						Final(espaisMenu);
+						Console.WriteLine();
+						Centrar($"Opcio no valida");
+						Final();
 						break;
 				}
 			} while (option.Key != ConsoleKey.D0);
@@ -89,26 +90,27 @@ namespace EquipsOrdenacions
 		{
 			int index = 1;
 			Console.Clear();
-			Console.WriteLine();
-			Centrar(titol, espais);
+			Console.WriteLine("\n");
+			Centrar(titol);
 			Console.WriteLine("\n");
 			foreach (Equip equip in equips)
-				Centrar($"{index++}. {equip}", espais);
+				Centrar($"{index++}. {equip}");
 		}
-		static void Final(int espais)
+		static void Final()
 		{
 			Console.WriteLine();
-			Centrar("Prem una tecla per continuar: ", espais);
+			Centrar("Prem una tecla per continuar: ");
+			Console.Write($"{new string(' ', espais)}");
 			Console.ReadKey();
 			Console.Clear();
 		}
-		static int Centrar(string text)
+		static void CentrarMenu(string text)
 		{
-			int espais = (Console.WindowWidth - text.Length) / 2;
-			Console.WriteLine($"{new string(' ', espais)}{text}");
-			return espais;
+			espais = (Console.WindowWidth - text.Length) / 2 + 5; //+5 per la barra lateral
+			int espaisMenu = (Console.WindowWidth - text.Length) / 2;
+			Console.WriteLine($"{new string(' ', espaisMenu)}{text}");
 		}
-		static void Centrar(string text, int espais)
+		static void Centrar(string text)
 		{
 			Console.WriteLine($"{new string(' ', espais)}{text}");
 		}
