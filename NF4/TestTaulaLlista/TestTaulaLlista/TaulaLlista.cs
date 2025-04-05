@@ -82,13 +82,9 @@ namespace TestTaulaLlista
 				// 	tCopia.dades[i] = (T)clon.Clone();
 				// }
 				if (dades[i] is ICloneable clon) //fa un clon
-				{
 					tCopia.dades[i] = (T)clon.Clone();
-				}
 				else
-				{
 					tCopia.dades[i] = dades[i];
-				}
 			}
 			return tCopia;
 		}
