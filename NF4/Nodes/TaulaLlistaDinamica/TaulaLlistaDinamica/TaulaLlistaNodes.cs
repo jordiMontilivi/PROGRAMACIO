@@ -5,8 +5,9 @@ namespace TaulaLlistaDinamica
 {
 	/// <summary>
 	/// Classe que implementa una taula dinàmica mitjançant una llista enllaçada de nodes.
+	/// La TaulaLlistaNodes és una col·lecció d'elements de tipus T.
 	/// </summary>
-	/// <typeparam name="T">Tipus dels elements que conté la taula.</typeparam>
+	/// <typeparam name="T">Tipus dels elements que conté la taulaLlista (element genèric T).</typeparam>
 	public class TaulaLlistaNodes<T> : IEnumerable<T>, ICollection<T>, IList<T>, ICloneable
 	{
 		#region Atributs
@@ -100,7 +101,7 @@ namespace TaulaLlistaDinamica
 		/// <summary>
 		/// Indica si la taula està buida.
 		/// </summary>
-		public bool Empty => Count == 0;
+		public bool IsEmpty => Count == 0;
 		#endregion
 
 		#region Mètodes públics
@@ -180,12 +181,12 @@ namespace TaulaLlistaDinamica
 
 		#region ICollection<T>
 		/// <summary>
-		/// Retorna el nombre d'elements actuals a la taula.
+		/// Retorna el nombre d'elements actuals a la TaulaLlista.
 		/// </summary>
 		public int Count => nElem;
 
 		/// <summary>
-		/// Indica si la col·lecció és només de lectura.
+		/// Indica si la TaulaLlista és només de lectura.
 		/// </summary>
 		public bool IsReadOnly => false;
 
