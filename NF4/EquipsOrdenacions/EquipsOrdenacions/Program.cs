@@ -42,7 +42,7 @@ namespace EquipsOrdenacions
 			Console.Clear();
 			do
 			{
-				MostrarMenu(); 
+				MostrarMenu();
 				Console.Write($"{new string(' ', espais)}"); // per tenir el cursor a la mateixa columna
 				option = Console.ReadKey();
 				switch (option.Key)
@@ -93,9 +93,11 @@ namespace EquipsOrdenacions
 			Console.WriteLine("\n");
 			Centrar(titol);
 			Console.WriteLine("\n");
-			Centrar($"    {Equip.ArreglarString("Equip")}{"GF".PadRight(4, ' ')}{"GC".PadRight(4, ' ')}{"PT".PadRight(4, ' ')}");
+			Centrar($"    {Equip.ArreglarString("Equip")}{"GF".PadRight(4, ' ')}{"GC".PadRight(4, ' ')}{"PT".PadRight(3, ' ')}");
+			Centrar($"{new string('_', 24)}{new string('_', 4)}{new string('_', 4)}{new string('_', 3)}");
 			foreach (Equip equip in equips)
-				Centrar($"{index++:00}. {equip.ToString('B')}");
+				Centrar($"{$"{index++}. ".PadLeft(4, ' ')}{equip.ToString('B')}"); //Centrar($"{index++:00}. {equip.ToString('B')}");
+			Centrar($"{new string('_', 24)}{new string('_', 4)}{new string('_', 4)}{new string('_', 3)}");
 		}
 		static void Final()
 		{
@@ -111,9 +113,9 @@ namespace EquipsOrdenacions
 			int espaisMenu = (Console.WindowWidth - text.Length) / 2;
 			Console.WriteLine($"{new string(' ', espaisMenu)}{text}");
 		}
-		static void Centrar(string text)
-		{
-			Console.WriteLine($"{new string(' ', espais)}{text}");
-		}
+		static void Centrar(string text) => Console.WriteLine($"{new string(' ', espais)}{text}");
+		//{
+		//	Console.WriteLine($"{new string(' ', espais)}{text}");
+		//}
 	}
 }

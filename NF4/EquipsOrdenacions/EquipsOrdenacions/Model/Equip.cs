@@ -81,7 +81,7 @@ namespace EquipsOrdenacions.Model
 		public string ToString(char separador = ';')
 		{
 			if (separador == 'B')// boniquet
-				return $"{ArreglarString(nom)}{golsF.ToString().PadRight(4, ' ')}{golsC.ToString().PadRight(4, ' ')}{punts.ToString().PadRight(4, ' ')}";
+				return $"{ArreglarString(nom)}{golsF.ToString().PadRight(4, ' ')}{golsC.ToString().PadRight(4, ' ')}{punts.ToString().PadRight(3, ' ')}";
 			return $"{nom}{separador}{golsF}{separador}{golsC}{separador}{punts}";
 		}
 		public override string ToString()
