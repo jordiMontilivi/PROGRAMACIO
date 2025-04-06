@@ -382,12 +382,16 @@ namespace TestTaulaLlista
 		/// <returns>retorna un array de tipus T amb els elements de la TaulaLlista</returns>
 		public T[] ToArray()
 		{
+			//Millorable si fem una comprobacio de ICloneable
 			T[] arrayOut = null;
 			if (nElem != 0)
 			{
 				arrayOut = new T[Count];
 				for (int i = 0; i < nElem; i++)
-					arrayOut[i] = dades[i];
+					if(dades[i] is ICloneable clon) //fa un clon
+						arrayOut[i] = (T)clon.Clone();
+					else
+						arrayOut[i] = dades[i];
 			}
 			return arrayOut;
 		}
@@ -459,16 +463,43 @@ namespace TestTaulaLlista
 		/// </summary>
 		public void Sort()
 		{
-			Array.Sort(dades);
+			// Ordena l'array desde la posició 0 fins a nElem-1
+			Array.Sort(dades, 0, nElem);
 		}
+
+		////Una altra forma de fer el metode Sort si no coneixes que es pot ordenar un rang de l'array
+		//public void Sort()
+		//{
+		//	T[] nou = ToArray();
+		//	Array.Sort(nou);
+		//	nElem = 0;
+		//	AddRange(nou);
+		//}
+
 		/// <summary>
 		/// Ordenem la TaulaLlista amb el mètode Sort de la classe Array amb un comparador
 		/// </summary>
 		public void Sort(IComparer<T> comparador)
 		{
-			Array.Sort(dades, comparador);
+			Array.Sort(dades, 0, nElem, comparador);
 		}
 
+		/// <summary>
+		/// Afegim un rang d'elements a la TaulaLlista
+		/// </summary>
+		/// <param name="elements">Coleccio d'elements que afegim a la TaulaLlista</param>
+		public void AddRange(IEnumerable<T> elements)
+		{
+			foreach (T element in elements)
+			{
+				if (nElem == dades.Length) DuplicaCapacitat();
+				if (element is ICloneable clon)
+					dades[nElem] = (T)clon.Clone();
+				else
+					dades[nElem] = element;
+				nElem++;
+			}
+		}
 		#endregion
 
 		#region sobreescriptures d'Object
