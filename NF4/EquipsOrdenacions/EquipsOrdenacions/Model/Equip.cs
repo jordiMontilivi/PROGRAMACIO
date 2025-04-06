@@ -64,6 +64,26 @@ namespace EquipsOrdenacions.Model
 		#endregion
 
 		#region Metodes Object
+
+		// Fem aquest metode per arreglar el nom de l'equip i per poder tenir una distancia sempre de 24 espais
+		// El fem static per no haver de crear un object Equip per fer servir el metode
+		public static string ArreglarString(string text)
+		{
+			//amb PadRight fem que el text ocupi 20 posicions i emplena amb espais a la dreta si es necessari
+			text = text.Trim();
+			if (text.Length > 20)
+				text = text.Substring(0, 20);
+			else
+				text = text.PadRight(20, ' ');
+			return text;
+		}
+		//Permetem fer un ToString amb separador personalitzat, si no posem res per defecte ';'
+		public string ToString(char separador = ';')
+		{
+			if (separador == 'B')// boniquet
+				return $"{ArreglarString(nom)}{golsF.ToString().PadRight(4, ' ')}{golsC.ToString().PadRight(4, ' ')}{punts.ToString().PadRight(4, ' ')}";
+			return $"{nom}{separador}{golsF}{separador}{golsC}{separador}{punts}";
+		}
 		public override string ToString()
 		{
 			return $"{nom};{golsF};{golsC};{punts}";

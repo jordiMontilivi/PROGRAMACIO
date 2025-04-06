@@ -6,7 +6,7 @@ namespace EquipsOrdenacions
 {
 	internal class Program
 	{
-		static int espais;
+		static int espais; // variable global per centrar el text
 		static void Main(string[] args)
 		{
 			TaulaLlista<Equip> equips = new TaulaLlista<Equip>();
@@ -43,7 +43,7 @@ namespace EquipsOrdenacions
 			do
 			{
 				MostrarMenu(); 
-				Console.Write($"{new string(' ', espais)}");
+				Console.Write($"{new string(' ', espais)}"); // per tenir el cursor a la mateixa columna
 				option = Console.ReadKey();
 				switch (option.Key)
 				{
@@ -93,8 +93,9 @@ namespace EquipsOrdenacions
 			Console.WriteLine("\n");
 			Centrar(titol);
 			Console.WriteLine("\n");
+			Centrar($"    {Equip.ArreglarString("Equip")}{"GF".PadRight(4, ' ')}{"GC".PadRight(4, ' ')}{"PT".PadRight(4, ' ')}");
 			foreach (Equip equip in equips)
-				Centrar($"{index++}. {equip}");
+				Centrar($"{index++:00}. {equip.ToString('B')}");
 		}
 		static void Final()
 		{
