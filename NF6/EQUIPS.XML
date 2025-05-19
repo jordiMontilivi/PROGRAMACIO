@@ -1,0 +1,14 @@
+<EQUIPS>
+   <EQUIP>
+		<ABREVIACIO>ARS</ABREVIACIO>
+		<NOM>ARSENAL</NOM>
+		<PRESSUPOST>120</PRESSUPOST>
+		<LOGO>https://a.espncdn.com/i/teamlogos/soccer/500/359.png</LOGO>
+   </EQUIP>
+<EQUIP>
+		<ABREVIACIO>ASV</ABREVIACIO>
+		<NOM>Aston Villa</NOM>
+		<PRESSUPOST>30</PRESSUPOST>
+		<LOGO>https://a.espncdn.com/i/teamlogos/soccer/500/362.png</LOGO>
+   </EQUIP>
+</EQUIPS>

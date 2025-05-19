@@ -1,0 +1,200 @@
+CASH;Generic Customer;
+040291661P;David Boix Bech;21422
+040272407M;Jaume Rigau Esteve;
+040502576J;Conrad Tormo Galià;17481
+037292890T;José Manuel Carbonell Aubert;
+040515143E;Manuel Vallmajo Pagès;00225
+038786694T;Montserrat Satorre Xicoira;17810
+040292341K;Josep Mora Vilar;
+043628207J;Arturo Olivé Soler;05745
+040239371C;Luis Geronès Ortiz;28408
+052710155C;Narcís Martínez Barbey;61226
+040331122R;Lourdes Perez Valls;05032
+040324265K;Ferran Polls Comas;40635
+038512738C;Mónica Perez Iglesias;04266
+040321378D;Maria Dolors Company Duran;14120
+040432678N;Pere Serra Ferrés;09601
+040263700S;Joan Ribas Peñarroya;18634
+037796019G;Marc Poch Sánchez-Guzmán;43694
+036764138H;Cristina Rifà Muñoz;02346
+040250983V;Ramon Aguilar Alsina;17829
+033938596A;M. Pilar Rigau Calsina;12425
+040279386S;Maria Rocio Tonietti Bover;87522
+040312476P;Xavier Girona Latorre;39074
+040288483G;Felip Rojas Canedo;24542
+040253603S;Ester Pujol Regueiro;38636
+077902103E;Maria Assumpció Carreras Cortés;12676
+033862539F;Carles Baeza Lacasa;68231
+040303187B;Marina Trulls Sánchez;05471
+040268978A;Marc Antoni Turon  Salazar;30149
+040428846K;David Bover Renart;97399
+011824022K;Jordi Ribas Gonzalez;85022
+077903452Z;Jordi Vila Tous;10239
+040287592X;Mikel Arbos Xifra;86570
+077907846S;Anna de Puig Moncho;70541
+047792189Y;Josep Bastart Mercadé;05981
+040325186E;Francesc Riu Alsina;08379
+040313470J;Nuria Costa Donet;26541
+077912468Z;Josep Maria Molinero Figueras;28504
+043627698X;Laura Vidal Guardiola;14120
+040534201J;Antonio Muñoz Grimal;54626
+040292787F;Víctor Corrales Ballesta;23486
+040239087N;M.Teresa Iglesias Soler;43227
+078001999Y;Josep Antoni Carbó Riera;14690
+040252427N;Llorenç Guixeras Quera;17397
+040330598Y;Ester Mellado Culla;08771
+039355330F;Raquel Valdés Sitjà;28695
+077896972C;Luis Manuel Subirós Antón;04254
+040517848J;Lourdes March Martinez;94043
+040319445P;Judit Villarroya Pavón;71272
+040262755J;Pedro Rubió Sitjà;19586
+040280828P;Beatriz Ferrer Camps;62183
+040281295S;Immaculada Calsina Sague;17481
+035092577M;Francesc Calderer Viñas;13198
+040346670R;Maria Coris Pla;15482
+040309142D;Maria dels Àngels Hostench Chisbert;14599
+040271114T;Maria Lluïsa Busquets Mundet;97002
+040288139M;Maria Lourdes Collell Juando;73659
+052945164S;Maria del Pilar Gallegos Auladell;13735
+040269167P;Rosa Ortiz de Villacian Candal;15544
+040306604R;Marc Martín Planas;42150
+040309634H;Gràcia Plaza Maurici;22209
+036904302C;Jordi Badal Riera;44386
+040321688C;Encarna Garriga Prats;48245
+033407432R;Àngel Serra Riera;90705
+047881235L;Rossen Vassilev Guinó Roig;80035
+040297887R;Elisabeth Otero Palomeras;00047
+043726605V;Josep Bruget Vidal;05854
+077908139D;Agnès Gómez Busquet;07942
+010799388Z;Maria Pilar Rull Pujol;10796
+040275227L;Josep Maria Brugat Serra;70647
+040861236B;Francesc Xavier Redondo Pons;07867
+020013225M;Joaquim Paredes Ventura;18404
+040445802A;Josep Sabadi Rodriguez;61042
+040288310S;Lluís Busquets Soria;20346
+040530451N;Carles Hernandez Fiol;22617
+039858448T;Anna Marjanedas Gómez;08424
+040255846G;Miracle Encarn Costa Assenova;38657
+040296394A;Montserrat Barbarà Félez;02850
+040508439B;Anna Colomé Garcia-Gascó;05745
+040274285C;Félix José Ignacio Surís Velasco;06632
+040307909H;Dolors Font Ribugent;70254
+040325642H;Joaquim Mata Planas;75247
+040299453A;Jordi Prat Ruiz;01443
+040508229P;Mariano Sargatal Gonzalez;02001
+043672013G;Elena Gual Vidal;31716
+029165487S;Núria Alonso Fernández;87531
+078151043X;Pilar Arbussà Riera;03922
+041500224J;Maria Goretti Roig Mira;09237
+077997738T;Francesca Moreno Grabalosa;07899
+040311155K;Maria Murgadas Granados;35453
+040430263N;Marta Llaberia Oriol;18126
+046672067F;Maria Concepció Sala Cortada;36166
+077908705T;Daniel González Esteve;23946
+046312728C;Josep Pluja Esteban;19232
+040310855C;Josefina Ortiz Llonch;05340
+040339464V;Roser Ortiz Moratones;09446
+040432451S;Josep M. Rotxés Duran;76199
+040287633M;Felip Esteve Vidal;07569
+040283839Y;Simone Royo Busquet;33033
+035095143H;Joan Rost Duch;62142
+040306254L;Montserrat Amat Filgueria;22304
+046641696L;Ma. Assumpció Pérez Vencells;21422
+040288027P;Raquel Carolà Marti;19828
+043676768K;Adoración Bou Villoria;10091
+040430896R;Montserrat Lambrinov Subirós;37354
+018165305C;Merçe Mias Hortoneda;94568
+040336669M;Raquel Arasanz Pons;58918
+040323610X;Lucia Florido Felip;91363
+040330569T;Montserrat Palos Bosch;08650
+043628284K;Benjamín Cosp Mir;57229
+040319993G;Joan Marc Corcoll Roca;62140
+040523676E;Amparo Piferrer Coma;70020
+046670544W;Rosa Chic Serisuelo;42507
+040235451X;Adolfo Simon Rosales;63807
+077912680L;Joan Bou Ramis;60516
+077903157H;Montserrat Garde Jara;28658
+046141348J;Oriol Bou Bosch;71085
+040525555S;Lluís Viñolas Ticó;94049
+040304087Z;Carlos Rabassedas Ferrero;31126
+038794331R;Manel Sanahuja Hereu;53033
+040331664Z;Esther Soler Illera;22016
+018980345D;Esperanza Gómez Bruguer;10796
+036952923L;Juan José Murillo Masferrer;05356
+040438901W;Francisco Javier Sabrià Zaragoza;43610
+040258532E;Maria Àngela Massa Turon;13848
+040529093B;Maria Teresa Teixidor Roca;02001
+040283965V;Marcela Sanchez Garcia;12637
+040275503L;M. Dolors Gomila Pasturet;08419
+040297382W;Ernest Subils Tenas;05939
+038144180Z;Helena López Roig;10524
+040324506D;Josep Garrido Uroz;64039
+040284996J;Jaume de Jorge Güell;00697
+040297429A;Adela García Garcia;15038
+077100990E;Nuria Vivó Gispert;95521
+040341654E;Maria Isabel Amat Arrué;53045
+040920170L;Helena Donatiu Quer;11409
+040351712Y;M. Teresa Albertí Punti;09442
+040307611L;Marta Albertí Cano;76339
+040287596Z;Josep Sunyer Pañart;49705
+039999958Z;M.Mercè Soldevila Morales;20381
+040435390X;Marta Bossacoma Dalmau;26124
+044793009A;Daniel Bernatallada Riera;11838
+077903218X;Ferran Bonet Juvanteny;41755
+019005135M;Antoni Palomeras Moré;02930
+017989782X;Carme Cros Costa;73316
+040527086M;Mercè Pijoan Millàs;21990
+040292732X;Roser Torres Macias;43691
+040326174K;Marta Guerrero Ferrer;35207
+040314946V;Joan Soler Olivert;60263
+040302638Z;Joan León Subirats;15570
+040291933G;Montserrat Garcia Prats;92250
+040443315T;M. Assumpció Rigau Kaiser;85022
+038403588M;Marta Geis Lloret;57372
+040260518F;Anna Vilanova Garcia;12225
+040335294X;Carme Tardiu Leon;90379
+046400791Q;Josep Xavier Colomer López;11333
+040338529W;Maria Lourdes Minella Caballé;34062
+040530267N;Josefina Ausach Eulogio;96316
+042994900B;Josep Mir Casellas;09074
+050655888K;Anna Ortega Serra;17253
+077910855B;Tània Juriol Agustí;42180
+040840411R;José Antonio Sullà Torres;20241
+036974416F;Alfons Gascon Arza;77589
+077998506D;Roger Arumí Font;14477
+005119168N;Carles Estrach Corcuera;44352
+040292473S;Joaquina Oliva Fernández;17572
+022565994G;Jordi Sánchez Alberti;06632
+020814173R;Carles Malagon Ambròs;92213
+077733423R;Maria Teresa Pou Claraco;08970
+047648152H;Carme Clopés Fraiz;07034
+040340859D;Isabel Cruz Farrés;75487
+040344733L;Artur Coll Rodríguez;76172
+038027045H;Fèlix Rubirola Cabruja;26056
+077898703A;Santiago Fargas Albó;92455
+077905048T;Maria Dolores Prats Martinell;17169
+040316890Y;Maria Ayguabella Llorens;23056
+040298405J;Maria Lourdes Bruget Costa;10814
+040297656T;Lluís Rafart Cateura;84528
+040283657P;Vicent Galdón Isern;00579
+040285299V;Eva Batllori Puig;35558
+073567596A;Juan Manuel Ripoll Fabregas;80995
+040320991J;Antoni Cairó Palahí;23646
+040277015J;Maria del Carmen Costa Gasull;66271
+046566516A;Pilar Francisco-Busquets Juanhuix;07103
+017699103M;Josep Sanmartín Torrents;43781
+040255162X;M. del Pilar Tal Escrivà;05920
+040287192R;Francesc Xavier Bover Díaz;10153
+077914412A;Domingo Martínez Solés;27548
+040276639M;Josepa Ruiz Lara;61694
+040319992A;Elvis Gasch Viñuales;21031
+043674211V;M. Enriqueta Soler Cosp;09380
+040271151Z;Maria Teresa Osés Olivet;
+039863373A;Jordi Batlle Vega;01674
+040273498S;Francesc Xavier Berney Llavaneras;16015
+040286354Z;Raquel Barrot Coris;62008
+040324425C;Marta Trillas Mangiarotti;44557
+040293417Q;Antonio Albertí González;01899
+017984889Q;Rosor Aurich Bellapart;
+040302877T;Francisca Vallmajo Trias;22503
+040287642Z;Eduard Sistané Fernández;42819

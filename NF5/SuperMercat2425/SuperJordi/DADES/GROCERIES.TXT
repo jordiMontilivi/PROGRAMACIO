@@ -1,0 +1,160 @@
+tropical fruit;2;K;1,6
+whole milk;5;U;1,7
+pip fruit;2;K;5,6
+other vegetables;3;K;3,6
+rolls/buns;4;U;0,75
+pot plants;6;U;1,87
+citrus fruit;2;K;0,65
+beef;7;K;21,5
+frankfurter;7;K;14,7
+chicken;7;K;12,61
+butter;5;U;3
+fruit/vegetable juice;1;U;2,12
+packaged fruits;2;P;4,54
+packaged vegetables;3;P;3,98
+chocolate;8;U;2,3
+specialty bar;8;U;1,8
+butter milk;5;U;1,34
+bottled water;1;U;0,76
+yogurt;5;P;2
+sausage;7;U;2,3
+brown bread;4;U;1,8
+hamburger meat;7;K;18,6
+root vegetables;3;K;7,6
+pork;7;K;13,25
+pastry;8;U;1
+canned beer;1;U;2
+berries;2;K;12,56
+coffee;1;U;6,67
+misc. beverages;1;U;3,67
+ham;7;K;14,7
+turkey;7;K;13,9
+curd cheese;5;K;12
+red/blush wine;1;U;23
+frozen potato products;10;U;2,25
+flour;4;U;3
+sugar;8;U;2,6
+frozen meals;10;U;3,5
+herbs;3;U;0,75
+soda;1;U;1,76
+detergent;11;U;9,4
+grapes;2;K;17,5
+processed cheese;5;K;5,5
+fish;12;K;45,5
+sparkling wine;1;U;18,4
+newspapers;13;U;2
+curd;5;P;1
+pasta;13;U;2,25
+popcorn;13;U;1
+bottled beer;1;U;2
+dog food;13;U;6
+specialty chocolate;8;U;3
+condensed milk;5;U;1,85
+cleaner;11;U;2
+white wine;1;U;11,26
+ice cream;8;U;6
+hard cheese;5;K;20
+cream cheese;5 ;K;12,8
+liquor;1;U;27
+pickled vegetables;3;K;15,5
+liquor (appetizer);1;U;20,2
+UHT-milk;5;U;2
+candy;8;U;1
+onions;3;K;3,7
+hair spray;13;U;4
+photo/film;13;U;2
+domestic eggs;13;P;5
+margarine;5;U;2,2
+shopping bags;13;U;0,25
+salt;13;U;0,9
+oil;13;U;6,9
+whipped/sour cream;5;U;2,8
+frozen vegetables;10;U;7,54
+sliced cheese;5;U;2,87
+dish cleaner;11;U;10
+baking powder;11;U;3
+specialty cheese;5;K;15,76
+salty snack;13;K;7,7
+white bread;4;U;2
+female sanitary products;13;U;3
+cling film/bags;13;U;0,1
+soap;11;U;1
+frozen chicken;10;U;3
+house keeping products;11;U;7
+spread cheese;5;U;3,45
+decalcifier;11;U;1,92
+frozen dessert;8;U;2,67
+vinegar;13;U;3,31
+nuts/prunes;13;K;20
+potato products;3;K;5,42
+frozen fish;12;U;7,7
+hygiene articles;11;U;8
+artif. sweetener;11;U;2,8
+light bulbs;11;U;4,5
+canned vegetables;3;U;2,9
+chewing gum;8;U;0,5
+canned fish;12;U;3,6
+semi-finished bread;4;K;2
+cat food;13;U;6,7
+bathroom cleaner;11;U;3
+prosecco;1;U;9,75
+liver loaf;7;K;21
+zwieback;4;U;2
+canned fruit;2;U;3
+frozen fruits;2;U;4
+brandy;1;U;32,5
+baby cosmetics;13;U;2,1
+spices;13;U;3,4
+napkins;13;U;2
+waffles;8;U;3,76
+sauces;9;U;2,54
+rum;1;U;28,8
+chocolate marshmallow;8;U;2,3
+long life bakery product;4;U;4,4
+bags;13;U;0.5
+sweet spreads;8;U;2,4
+soups;13;U;3
+mustard;9;U;6,21
+specialty fat;9;U;6,12
+instant coffee;1;U;3,3
+snack products;13;K;12,12
+organic sausage;7;U;6
+soft cheese;5;K;21
+mayonnaise;9;U;4
+dental care;11;U;3
+roll products;8 ;U;5,3
+kitchen towels;11;U;3
+flower soil/fertilizer;13;U;7,32
+cereals;8;U;4,3
+meat spreads;7;K;8,32
+dishes;13;U;0,25
+male cosmetics;13;U;7,3
+candles;13;U;2
+whisky;1;U;43
+tidbits;8;K;1,5
+cooking chocolate;8;U;4,5
+seasonal products;13;U;6,08
+liqueur;1;U;30
+abrasive cleaner;11;U;3,7
+syrup;9;U;6
+ketchup;9;U;3,92
+cream;5;U;2,53
+skin care;13;U;12,42
+rubbing alcohol;13;U;2,18
+nut snack;13;U;5
+cocoa drinks;1;U;3,57
+softener;11;U;1,2
+cake bar;8;U;1
+honey;8;U;3,25
+jam;8;U;5,25
+kitchen utensil;13;U;1,24
+flower (seeds);2;K;21
+rice;3;U;4,39
+tea;1;U;2,39
+salad dressing;9;U;2,01
+specialty vegetables;3;K;20,11
+pudding powder;8;U;2,38
+ready soups;13;U;3
+make up remover;13;U;7,4
+toilet cleaner;11;U;4,43
+preservation products;13;U;6,8
